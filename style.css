@@ -42,20 +42,15 @@ div {
 /*||||||||||||||||||||--input--|||||||||||||||||||||||||||*/
 input {
     border: none;
-    border-bottom: solid 2px rgba(8, 8, 8, 0.397);
-    width: 50%;    
+    outline: none;
+    border-bottom: solid 2px rgba(24, 23, 23, 0.397);
+    width: 50%; 
 }
-/*||||||||||||||||--hover effect ofinput--|||||||||||||||||||||*/
-input :visited{
+input :visited {
     border: none;
-    border-bottom: solid 2px rgba(8, 8, 8, 0.397);
-    width: 50%;    
-}
-input :hover,
-input :active {
-    border: none;
-    border-bottom: solid 2px rgba(64, 36, 129, 0.397);
-    width: 50%;    
+    outline: none;
+    border-bottom: solid 2px rgba(24, 23, 23, 0.397);
+    width: 50%; 
 }
 ::placeholder {
     font-size: 18px;
